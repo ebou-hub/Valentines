@@ -189,7 +189,7 @@ function drawText() {
         context.fillStyle = `rgba(45, 45, 255, ${opacity})`;
 
         if (window.innerWidth < 600) {
-            drawTextWithLineBreaks(["I love you so much {Aliah}, more than", canvas.width / 2, canvas.height / 2, fontSize, lineHeight);
+            drawTextWithLineBreaks(["I love you so much {Aliah}, canvas.width / 2, canvas.height / 2, fontSize, lineHeight);
         } else {
             context.fillText("I love you so much {Aliah}, canvas.width/2, canvas.height/2);
         }
